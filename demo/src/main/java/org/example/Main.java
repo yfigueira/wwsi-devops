@@ -23,7 +23,7 @@ public class Main {
         return (double) first / (double) second;
     }
 
-    public static int multiply(int first, int second) {
-        return first * second;
+    public static double multiply(int first, int second) {
+        return (double) first * (double) second;
     }
 }
