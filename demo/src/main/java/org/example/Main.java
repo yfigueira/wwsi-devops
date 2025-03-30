@@ -5,6 +5,7 @@ public class Main {
         System.out.println(add(2, 3));
         System.out.println(subtract(3, 2));
         System.out.println(divide(4, 2));
+        System.out.println(multiply(2, 2));
     }
 
     public static int add(int first, int second) {
@@ -20,5 +21,9 @@ public class Main {
             return -1.0;
         }
         return (double) first / (double) second;
+    }
+
+    public static int multiply(int first, int second) {
+        return first * second;
     }
 }
