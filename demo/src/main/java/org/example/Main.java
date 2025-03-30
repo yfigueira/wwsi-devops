@@ -16,6 +16,9 @@ public class Main {
     }
 
     public static double divide(int first, int second) {
+        if (second == 0) {
+            return -1.0;
+        }
         return (double) first / (double) second;
     }
 }
